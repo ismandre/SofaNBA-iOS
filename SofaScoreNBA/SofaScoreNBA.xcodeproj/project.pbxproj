@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5C68EC282F27BF0082E068 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68EB282F27BF0082E068 /* PlayerCell.swift */; };
+		4E5C68F0282F2EB20082E068 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68EF282F2EB20082E068 /* Player.swift */; };
+		4E5C68F2283D73920082E068 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68F1283D73920082E068 /* TeamCell.swift */; };
+		4E5C68F4283D78FE0082E068 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68F3283D78FE0082E068 /* Team.swift */; };
 		4E6292AA282EF59C00A3C062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292A9282EF59C00A3C062 /* AppDelegate.swift */; };
 		4E6292AC282EF59C00A3C062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292AB282EF59C00A3C062 /* SceneDelegate.swift */; };
 		4E6292AE282EF59D00A3C062 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292AD282EF59D00A3C062 /* FavoritesViewController.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E5C68EB282F27BF0082E068 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		4E5C68EF282F2EB20082E068 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4E5C68F1283D73920082E068 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		4E5C68F3283D78FE0082E068 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		4E6292A6282EF59C00A3C062 /* SofaScoreNBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofaScoreNBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6292A9282EF59C00A3C062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E6292AB282EF59C00A3C062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E5C68EA282F27890082E068 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C68EB282F27BF0082E068 /* PlayerCell.swift */,
+				4E5C68F1283D73920082E068 /* TeamCell.swift */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
+		4E5C68ED282F2E690082E068 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C68EE282F2E7D0082E068 /* Models */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		4E5C68EE282F2E7D0082E068 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C68EF282F2EB20082E068 /* Player.swift */,
+				4E5C68F3283D78FE0082E068 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4E62929D282EF59C00A3C062 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +96,7 @@
 		4E6292A8282EF59C00A3C062 /* SofaScoreNBA */ = {
 			isa = PBXGroup;
 			children = (
+				4E5C68ED282F2E690082E068 /* DataLayer */,
 				4E6292BD282EFCA600A3C062 /* PresentationLayer */,
 				4E6292A9282EF59C00A3C062 /* AppDelegate.swift */,
 				4E6292AB282EF59C00A3C062 /* SceneDelegate.swift */,
@@ -75,6 +110,7 @@
 		4E6292BD282EFCA600A3C062 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				4E5C68EA282F27890082E068 /* Customs */,
 				4E6292BF282EFCCA00A3C062 /* ViewController */,
 				4E6292BE282EFCAF00A3C062 /* TabBarController */,
 			);
@@ -172,11 +208,15 @@
 			files = (
 				4E6292C3282F02C400A3C062 /* ExploreViewController.swift in Sources */,
 				4E6292AE282EF59D00A3C062 /* FavoritesViewController.swift in Sources */,
+				4E5C68F2283D73920082E068 /* TeamCell.swift in Sources */,
 				4E6292C7282F033300A3C062 /* SettingsViewController.swift in Sources */,
+				4E5C68EC282F27BF0082E068 /* PlayerCell.swift in Sources */,
 				4E6292C1282F013E00A3C062 /* MainTabBarControler.swift in Sources */,
 				4E6292AA282EF59C00A3C062 /* AppDelegate.swift in Sources */,
 				4E6292AC282EF59C00A3C062 /* SceneDelegate.swift in Sources */,
+				4E5C68F4283D78FE0082E068 /* Team.swift in Sources */,
 				4E6292C5282F030000A3C062 /* SeasonsViewController.swift in Sources */,
+				4E5C68F0282F2EB20082E068 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

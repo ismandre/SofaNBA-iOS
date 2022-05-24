@@ -16,6 +16,14 @@ class MainTabBarController: UITabBarController {
         addTabTabItems()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = .purple
+    }
+    
     private func customizeTabBar() {
         UITabBar.appearance().backgroundColor = .white
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.systemBlue], for: .selected)
@@ -39,7 +47,7 @@ class MainTabBarController: UITabBarController {
     }
         
     fileprivate func generateNavController(vc: UIViewController, title: String) -> UINavigationController {
-        vc.navigationItem.title = title
+        // vc.navigationItem.title = title
         let navController = UINavigationController(rootViewController: vc)
         navController.title = title
         

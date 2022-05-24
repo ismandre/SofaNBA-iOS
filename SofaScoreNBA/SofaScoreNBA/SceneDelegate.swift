@@ -22,15 +22,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func startNavigationController(in windowScene: UIWindowScene) {
-            window = UIWindow(windowScene: windowScene)
-            let initialViewController = ExploreViewController()
-            let navigationController = UINavigationController(rootViewController: initialViewController)
-            // window?.rootViewController = navigationController
-            
-            // let vc = SearchViewController()
-            window?.rootViewController = MainTabBarController()
-            window?.makeKeyAndVisible()
-        }
+        window = UIWindow(windowScene: windowScene)
+        let initialViewController = ExploreViewController()
+        let navigationController = UINavigationController(rootViewController: initialViewController)
+        // window?.rootViewController = navigationController
+        
+        // let vc = SearchViewController()
+        window?.rootViewController = MainTabBarController()
+        window?.makeKeyAndVisible()
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
