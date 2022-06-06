@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E5C68EC282F27BF0082E068 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68EB282F27BF0082E068 /* PlayerCell.swift */; };
-		4E5C68F0282F2EB20082E068 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68EF282F2EB20082E068 /* Player.swift */; };
-		4E5C68F2283D73920082E068 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68F1283D73920082E068 /* TeamCell.swift */; };
-		4E5C68F4283D78FE0082E068 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C68F3283D78FE0082E068 /* Team.swift */; };
+		4E5C691828493C320082E068 /* PlayerTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C691728493C320082E068 /* PlayerTeamCell.swift */; };
+		4E5C691A28493D390082E068 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C691928493D390082E068 /* Entity.swift */; };
+		4E5C6944284B0F620082E068 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C6943284B0F620082E068 /* RadioButton.swift */; };
+		4E5C6950284CB16F0082E068 /* PlayersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C694F284CB16F0082E068 /* PlayersData.swift */; };
+		4E5C6952284CB2310082E068 /* TeamsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C6951284CB2310082E068 /* TeamsData.swift */; };
+		4E5C6955284CBD0F0082E068 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C6954284CBD0F0082E068 /* ApiService.swift */; };
+		4E5C6958284CC3290082E068 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C6957284CC3290082E068 /* ExploreViewModel.swift */; };
+		4E5C695A284CFA600082E068 /* PlayerImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C6959284CFA600082E068 /* PlayerImages.swift */; };
+		4E5C695C284D03F10082E068 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C695B284D03F10082E068 /* RequestError.swift */; };
+		4E5C695F284D231A0082E068 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C695E284D231A0082E068 /* ColorPalette.swift */; };
+		4E5C6963284DEED00082E068 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C6962284DEED00082E068 /* UserDefaultsManager.swift */; };
 		4E6292AA282EF59C00A3C062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292A9282EF59C00A3C062 /* AppDelegate.swift */; };
 		4E6292AC282EF59C00A3C062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292AB282EF59C00A3C062 /* SceneDelegate.swift */; };
 		4E6292AE282EF59D00A3C062 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292AD282EF59D00A3C062 /* FavoritesViewController.swift */; };
@@ -20,13 +27,21 @@
 		4E6292C3282F02C400A3C062 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292C2282F02C400A3C062 /* ExploreViewController.swift */; };
 		4E6292C5282F030000A3C062 /* SeasonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292C4282F030000A3C062 /* SeasonsViewController.swift */; };
 		4E6292C7282F033300A3C062 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6292C6282F033300A3C062 /* SettingsViewController.swift */; };
+		D494FBB767848A9647B429D5 /* Pods_SofaScoreNBA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F341E66E0D8C9BADF3D307 /* Pods_SofaScoreNBA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E5C68EB282F27BF0082E068 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
-		4E5C68EF282F2EB20082E068 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		4E5C68F1283D73920082E068 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
-		4E5C68F3283D78FE0082E068 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		4E5C691728493C320082E068 /* PlayerTeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTeamCell.swift; sourceTree = "<group>"; };
+		4E5C691928493D390082E068 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		4E5C6943284B0F620082E068 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		4E5C694F284CB16F0082E068 /* PlayersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersData.swift; sourceTree = "<group>"; };
+		4E5C6951284CB2310082E068 /* TeamsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsData.swift; sourceTree = "<group>"; };
+		4E5C6954284CBD0F0082E068 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		4E5C6957284CC3290082E068 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		4E5C6959284CFA600082E068 /* PlayerImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerImages.swift; sourceTree = "<group>"; };
+		4E5C695B284D03F10082E068 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		4E5C695E284D231A0082E068 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		4E5C6962284DEED00082E068 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		4E6292A6282EF59C00A3C062 /* SofaScoreNBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofaScoreNBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6292A9282EF59C00A3C062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E6292AB282EF59C00A3C062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +53,9 @@
 		4E6292C2282F02C400A3C062 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		4E6292C4282F030000A3C062 /* SeasonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsViewController.swift; sourceTree = "<group>"; };
 		4E6292C6282F033300A3C062 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7548B860BFFD2535F740BD03 /* Pods-SofaScoreNBA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofaScoreNBA.release.xcconfig"; path = "Target Support Files/Pods-SofaScoreNBA/Pods-SofaScoreNBA.release.xcconfig"; sourceTree = "<group>"; };
+		78F341E66E0D8C9BADF3D307 /* Pods_SofaScoreNBA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofaScoreNBA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F407905FBD151DA296DA9904 /* Pods-SofaScoreNBA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofaScoreNBA.debug.xcconfig"; path = "Target Support Files/Pods-SofaScoreNBA/Pods-SofaScoreNBA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,24 +63,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D494FBB767848A9647B429D5 /* Pods_SofaScoreNBA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E5C68EA282F27890082E068 /* Customs */ = {
+		4E5C68EA282F27890082E068 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				4E5C68EB282F27BF0082E068 /* PlayerCell.swift */,
-				4E5C68F1283D73920082E068 /* TeamCell.swift */,
+				4E5C691728493C320082E068 /* PlayerTeamCell.swift */,
+				4E5C6943284B0F620082E068 /* RadioButton.swift */,
 			);
-			path = Customs;
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		4E5C68ED282F2E690082E068 /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				4E5C6960284DEEB30082E068 /* LocalStorage */,
+				4E5C6953284CBCF70082E068 /* Networking */,
 				4E5C68EE282F2E7D0082E068 /* Models */,
 			);
 			path = DataLayer;
@@ -71,10 +92,45 @@
 		4E5C68EE282F2E7D0082E068 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4E5C68EF282F2EB20082E068 /* Player.swift */,
-				4E5C68F3283D78FE0082E068 /* Team.swift */,
+				4E5C691928493D390082E068 /* Entity.swift */,
+				4E5C694F284CB16F0082E068 /* PlayersData.swift */,
+				4E5C6951284CB2310082E068 /* TeamsData.swift */,
+				4E5C6959284CFA600082E068 /* PlayerImages.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4E5C6953284CBCF70082E068 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C6954284CBD0F0082E068 /* ApiService.swift */,
+				4E5C695B284D03F10082E068 /* RequestError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4E5C6956284CC2A20082E068 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C6957284CC3290082E068 /* ExploreViewModel.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		4E5C695D284D23040082E068 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C695E284D231A0082E068 /* ColorPalette.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4E5C6960284DEEB30082E068 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				4E5C6962284DEED00082E068 /* UserDefaultsManager.swift */,
+			);
+			path = LocalStorage;
 			sourceTree = "<group>";
 		};
 		4E62929D282EF59C00A3C062 = {
@@ -82,6 +138,8 @@
 			children = (
 				4E6292A8282EF59C00A3C062 /* SofaScoreNBA */,
 				4E6292A7282EF59C00A3C062 /* Products */,
+				76830374C537AF94DCDC2865 /* Pods */,
+				FCD2359C6C74D2CD5B16D238 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +154,7 @@
 		4E6292A8282EF59C00A3C062 /* SofaScoreNBA */ = {
 			isa = PBXGroup;
 			children = (
+				4E5C6956284CC2A20082E068 /* ServiceLayer */,
 				4E5C68ED282F2E690082E068 /* DataLayer */,
 				4E6292BD282EFCA600A3C062 /* PresentationLayer */,
 				4E6292A9282EF59C00A3C062 /* AppDelegate.swift */,
@@ -110,7 +169,8 @@
 		4E6292BD282EFCA600A3C062 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				4E5C68EA282F27890082E068 /* Customs */,
+				4E5C695D284D23040082E068 /* Utilities */,
+				4E5C68EA282F27890082E068 /* CustomViews */,
 				4E6292BF282EFCCA00A3C062 /* ViewController */,
 				4E6292BE282EFCAF00A3C062 /* TabBarController */,
 			);
@@ -136,6 +196,23 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		76830374C537AF94DCDC2865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F407905FBD151DA296DA9904 /* Pods-SofaScoreNBA.debug.xcconfig */,
+				7548B860BFFD2535F740BD03 /* Pods-SofaScoreNBA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCD2359C6C74D2CD5B16D238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F341E66E0D8C9BADF3D307 /* Pods_SofaScoreNBA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E6292BA282EF59E00A3C062 /* Build configuration list for PBXNativeTarget "SofaScoreNBA" */;
 			buildPhases = (
+				F1D175C66B783E51AD979B86 /* [CP] Check Pods Manifest.lock */,
 				4E6292A2282EF59C00A3C062 /* Sources */,
 				4E6292A3282EF59C00A3C062 /* Frameworks */,
 				4E6292A4282EF59C00A3C062 /* Resources */,
+				9FFE8794C2DD96E0142A2C4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,22 +280,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FFE8794C2DD96E0142A2C4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SofaScoreNBA/Pods-SofaScoreNBA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SofaScoreNBA/Pods-SofaScoreNBA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SofaScoreNBA/Pods-SofaScoreNBA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D175C66B783E51AD979B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofaScoreNBA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E6292A2282EF59C00A3C062 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5C695C284D03F10082E068 /* RequestError.swift in Sources */,
 				4E6292C3282F02C400A3C062 /* ExploreViewController.swift in Sources */,
 				4E6292AE282EF59D00A3C062 /* FavoritesViewController.swift in Sources */,
-				4E5C68F2283D73920082E068 /* TeamCell.swift in Sources */,
+				4E5C695F284D231A0082E068 /* ColorPalette.swift in Sources */,
+				4E5C6952284CB2310082E068 /* TeamsData.swift in Sources */,
 				4E6292C7282F033300A3C062 /* SettingsViewController.swift in Sources */,
-				4E5C68EC282F27BF0082E068 /* PlayerCell.swift in Sources */,
 				4E6292C1282F013E00A3C062 /* MainTabBarControler.swift in Sources */,
 				4E6292AA282EF59C00A3C062 /* AppDelegate.swift in Sources */,
+				4E5C6958284CC3290082E068 /* ExploreViewModel.swift in Sources */,
+				4E5C691828493C320082E068 /* PlayerTeamCell.swift in Sources */,
+				4E5C6955284CBD0F0082E068 /* ApiService.swift in Sources */,
 				4E6292AC282EF59C00A3C062 /* SceneDelegate.swift in Sources */,
-				4E5C68F4283D78FE0082E068 /* Team.swift in Sources */,
+				4E5C6944284B0F620082E068 /* RadioButton.swift in Sources */,
+				4E5C691A28493D390082E068 /* Entity.swift in Sources */,
+				4E5C6963284DEED00082E068 /* UserDefaultsManager.swift in Sources */,
+				4E5C6950284CB16F0082E068 /* PlayersData.swift in Sources */,
 				4E6292C5282F030000A3C062 /* SeasonsViewController.swift in Sources */,
-				4E5C68F0282F2EB20082E068 /* Player.swift in Sources */,
+				4E5C695A284CFA600082E068 /* PlayerImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +480,7 @@
 		};
 		4E6292BB282EF59E00A3C062 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F407905FBD151DA296DA9904 /* Pods-SofaScoreNBA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -378,6 +507,7 @@
 		};
 		4E6292BC282EF59E00A3C062 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7548B860BFFD2535F740BD03 /* Pods-SofaScoreNBA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
