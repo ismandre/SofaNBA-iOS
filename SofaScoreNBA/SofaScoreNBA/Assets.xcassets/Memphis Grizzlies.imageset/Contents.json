@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "assetsExportableLogosClubLogosWestConferenceMemphisGrizzliesTransparent.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "assetsExportableLogosClubLogosWestConferenceMemphisGrizzliesTransparent@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "assetsExportableLogosClubLogosWestConferenceMemphisGrizzliesTransparent@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
